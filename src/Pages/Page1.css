@@ -1,0 +1,25 @@
+.page1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.main-head {
+  width: 82.888vw;
+  height: 284px;
+  max-height: 100%;
+  /* height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 1406px) {
+  .main-head {
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+}
